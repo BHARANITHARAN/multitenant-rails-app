@@ -1,0 +1,2 @@
+module TenantinfosHelper
+end

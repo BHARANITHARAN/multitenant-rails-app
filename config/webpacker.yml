@@ -1,0 +1,6 @@
+default: &default
+
+development:
+  <<: *default
+  extract_css: false
+  # other settings
