@@ -11,7 +11,6 @@ class SubdomainBlank
 end
 
 Rails.application.routes.draw do
-  resources :tenantinfos
   resources :users
   constraints(SubdomainConstraint) do
     root 'dashboard#index', as: :subdomain_root
